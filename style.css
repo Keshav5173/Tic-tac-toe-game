@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#msg{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 30vh;
+    /* display: none; */
+    background-color: rgb(193, 189, 179);
+}
+#win{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    h1{
+        font-size: 8vmin;
+    }
+}
+#ng{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    button{
+        margin-top:15px;
+        font-size: 1.2rem;
+    }
+}
+.newGame{
+    height: 40px;
+    width: 130px;
+    border: 2px solid black;
+    transition: all ease-out 0.3s;
+}
+#heading{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 244, 224);
+}
+
+#gameArea{
+    background-color: rgb(230, 239, 233);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game{
+    margin-top: 25px;
+    width: 70vmin;
+    height: 70vmin;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    background-color: rgb(194, 234, 186);
+    border: 2px solid black;
+    color: black;
+    height: 20vmin;
+    font-size: 4rem;
+    width: 20vmin;
+    border-radius: 1rem;
+    margin: 0 5px;
+    transition: all ease-out 0.3s;
+}
+#resetArea{
+    background-color: rgb(230, 239, 233);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.reset{
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    font-size: 1.15rem;
+    transition: all ease-out 0.3s;
+}
+.button:hover{
+    background-color: rgb(167, 196, 160);
+    box-shadow: 0 0 1.5rem rgb(0 0 0 0.5);
+}
+.button:active{
+    border: 4px solid black;
+}
+.reset:hover{
+    background-color: black;
+    color: White;
+    height: 55px;
+    width: 85px;
+    font-size: 1.2rem;
+}
+.newGame:hover{
+    background-color: black;
+    color: White;
+    height: 45px;
+    width: 135px;
+    font-size: 1.2rem;
+
+}
